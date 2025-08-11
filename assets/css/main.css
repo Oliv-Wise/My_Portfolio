@@ -1679,3 +1679,46 @@ input, select, textarea {
 		transform: translateY(0);
 	}
 }
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px; /* espace entre les 2 colonnes */
+  margin-top: 20px;
+}
+
+.skills-column {
+  flex: 1; /* chaque colonne prend la même largeur */
+  max-width: 250px;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left; /* labels alignés à gauche */
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 20px;
+  width: 100%; /* barre pleine largeur de la colonne */
+}
+
+.progress {
+  background-color: #4CAF50;
+  color: white;
+  height: 100%;
+  text-align: right;
+  padding-right: 5px;
+  line-height: 20px;
+  font-size: 12px;
+  border-radius: 8px 0 0 8px;
+  transition: width 1s ease-in-out;
+}
