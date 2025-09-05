@@ -1726,3 +1726,27 @@ input, select, textarea {
   .personal-info { display: block !important; visibility: visible; opacity: 1; }
   .icons { display: flex !important; gap: 12px; flex-wrap: wrap; }
 }
+.cv-button {
+  display: inline-block;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #14e20c, #0a9927); 
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Effet au survol */
+.cv-button:hover {
+  background: linear-gradient(135deg, #069036, #0e8b03);
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Effet clic */
+.cv-button:active {
+  transform: scale(0.97);
+}
