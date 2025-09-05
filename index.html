@@ -84,9 +84,12 @@
 
 
     <!-- Bouton Télécharger CV -->
-    <a href="docs/Cv de stage_update_bon.pdf" class="cv-button" target="_blank">
-	Voir mon CV
-    </a>
+<a href="docs/Cv de stage_update_bon.pdf" 
+   class="cv-button"
+   target="_blank"
+   rel="noopener noreferrer">
+    Voir mon CV
+</a>
 
     <!-- Infos personnelles -->
     <div class="personal-info">
@@ -103,7 +106,6 @@
 </div>
 <nav>
 	<ul>
-	<li><a href="#intro">INTRO</a></li>
 	<li><a href="#work">PROJETS</a></li>
 	<li><a href="#about">FORMATION</a></li>
 	<li><a href="#contact">EXPERIENCE</a></li>							
@@ -114,25 +116,12 @@
 				<!-- Main -->
 					<div id="main">
 
-	<article id="intro">
-	<h2 class="major">Intro</h2>
-	<span class="image main">
-  <img src="images/Intro.jpg" alt="Image de fond d’introduction" style="width: 100%; max-width: 900px; height:400px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; animation: fadeIn 1s ease forwards;">
-</span>
-<p>
-	Au fil de mon parcours universitaire, j’ai conçu plusieurs applications allant d’un jeu de société en Java à un système de gestion de fichiers en langage C. J’ai aussi contribué à des projets associatifs concrets, comme le site web de l’association APEH-France, entièrement développé avec des technologies web libres (HTML, CSS, PHP, PostgreSQL).  
-</p>
-	<p>
-		Vous trouverez ici une sélection de mes <a href="#work">réalisations</a>. Mon objectif est d'intégrer une équipe dynamique en tant que stagiaire développeur pour mettre mes compétences au service de projets concrets et utiles.
-	</p>
-</article>
+	
 
 						<!-- Work -->
-							<article id="work">
+	<article id="work">
   <h2 class="major">Projets Personnels</h2>
-  <span class="image main">
-  <img src="images/projet.jpg" alt="Image de présentation des projets" style="width: 100%; max-width: 900px; height:400px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; animation: fadeIn 1s ease 0.3s forwards;">
-</span>  
+  <p>Voici quelques projets personnels que j'ai réalisés pour approfondir mes compétences en programmation et en développement logiciel. Chaque projet m'a permis de relever des défis techniques et de mettre en pratique les concepts appris durant mes études.</p>  
   <!-- Projet 1 : File System Management -->
   <div class="project-block">
     <h3>File System Management- Projet système en C(300H)</h3>
@@ -159,13 +148,13 @@
   </div>
 
   <!-- Projet 4 : ChècheKonnen (à venir, donc exclu pour l’instant) -->
-  <!-- Tu pourras l’ajouter ici plus tard -->
+  <!-- à ajouter ici plus tard -->
 
 </article>
 
 
 						<!-- About -->
-							<article id="about">
+<article id="about">
   <h2 class="major">FORMATION</h2> 
 <span class="image main">
   <img src="images/Formation.jpg" alt="Illustration section formation" style="width: 100%; max-width: 900px; height:400px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; animation: fadeIn 1s ease 0.6s forwards;">
@@ -205,9 +194,11 @@
 </article>
 						<!-- Expérience -->
 <article id="contact">
-<h2 class="major">Expérience Professionnelle</h2>
+  <h2 class="major">Expérience Professionnelle</h2>
+  
+  <!-- Projet APEH-France -->
   <div class="project-block">
-    <h3>Développement complet d'un site web pour l'association APEH-France(450H)</h3>
+    <h3>Développement complet d'un site web pour l'association APEH-France (450H)</h3>
     <div class="project-gif">
       <video src="images/gifs/site_APEH.webm"
          controls
@@ -215,25 +206,40 @@
          muted
          loop
          playsinline
-         class="responsive-video">
-    alt = "aperçu du site APEH-France">
-  </video>
+         class="responsive-video"
+         alt="aperçu du site APEH-France">
+      </video>
     </div>
     <p>
-    J’ai conçu et développé de A à Z le site web de l’association APEH-France.Ce projet m’a permis de mettre en œuvre mes compétences en développement web fullstack, en sécurisation des données et en accessibilité.   
-	<br><strong>Stack technique :</strong> HTML, CSS, PHP, PostgreSQL, JavaScript (validation côté client).
-	</p>
+      J’ai conçu et développé de A à Z le site web de l’association APEH-France.
+      Ce projet m’a permis de mettre en œuvre mes compétences en développement web fullstack,
+      en sécurisation des données et en accessibilité.
+      <br><strong>Stack technique :</strong> HTML, CSS, PHP, PostgreSQL, JavaScript (validation côté client).
+    </p>
+  </div>
+
+  <!-- Projet Marketplace Universitaire -->
+  <div class="project-block">
+    <h3>Marketplace universitaire – Développement d’une application web complète</h3>
+    <p>
+      🚀 <strong>Objectif :</strong> concevoir et développer une marketplace complète dans le cadre d’un projet universitaire en équipe.
+      <br><br>
+      👨‍💻 <strong>Mon rôle :</strong> gestion des utilisateurs (clients, pros, gestionnaires), suivi des commandes et factures,
+      génération de factures <strong>PDF</strong>, intégration d’une <strong>messagerie interne</strong> et mise en place d’un module de <strong>reporting</strong>.
+      <br><br>
+      🛠️ <strong>Stack technique :</strong> HTML • CSS • JavaScript • PHP • MySQL • FPDF
+      <br><br>
+      💡 <strong>Résultat :</strong> création d’une application fonctionnelle avec gestion des rôles, suivi des achats et ventes,
+      et génération automatisée de factures en document PDF.
+    </p>
   </div>
 </article>
+  
 
 						<!-- Elements -->
 </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
+									
 			</div>
 
 		<!-- BG -->
