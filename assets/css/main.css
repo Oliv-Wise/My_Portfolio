@@ -1750,3 +1750,10 @@ input, select, textarea {
 .cv-button:active {
   transform: scale(0.97);
 }
+
+.profile-text {
+  text-align: justify;
+  max-width: 700px;        
+  line-height: 1.6;        
+  margin: 0 auto;          
+}
